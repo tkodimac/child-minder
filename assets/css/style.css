@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,264 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+
+header {
+    margin-bottom: -70px;
+}
+
+/* HERO SECTION */
+
+.hero {
+    height: 80vh;
+    position: relative;
+    top: -70px;
+    z-index: -999;
+    background: linear-gradient(45deg,
+            rgba(255, 175, 189, 0.7),
+            rgba(100, 216, 243, 0.7),
+            rgba(234, 236, 198, 0.7),
+            rgba(245, 146, 176, 0.7),
+            rgba(52, 219, 216, 0.7)) 0 0 / 1000% no-repeat,
+        url(../image/1.jpg) 0 0 / cover no-repeat;
+    -webkit-animation: gradientAnimation 40s ease infinite;
+    animation: gradientAnimation 40s ease infinite;
+    background-position: 150%;
+}
+
+@-webkit-keyframes gradientAnimation {
+    0% {
+        background-position: 0% 30%, 0 0;
+    }
+
+    50% {
+        background-position: 100% 70%, 0 0;
+    }
+
+    100% {
+        background-position: 0% 30%, 0 0;
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 30%, 0 0;
+    }
+
+    50% {
+        background-position: 100% 70%, 0 0;
+    }
+
+    100% {
+        background-position: 0% 30%, 0 0;
+    }
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: normal 600 72px/1 "Open Sans", sans-serif;
+    text-align: center;
+    white-space: nowrap;
+}
+
+h1 span {
+    display: block;
+    margin-top: 1em;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/* ABOUT US SECTION */
+
+.text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    line-height: 25px;
+}
+
+.responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+}
+
+.responsive-container-block.bigContainer {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb29.png");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: cover;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+.responsive-container-block.Container {
+    max-width: 800px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-bottom: 150px;
+    margin-left: auto;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text-blk.heading {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+
+.text-blk.subHeading {
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+}
+
+.socialIcon {
+    width: 33px;
+    height: 33px;
+}
+
+.social-icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.social-icon {
+    margin: 0 50px 0 50px;
+}
+
+.social-icon:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .text-blk.heading {
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    .text-blk.subHeading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .socialIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .text-blk.subHeading {
+        line-height: 27px;
+    }
+
+    .text-blk.heading {
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .social-icon {
+        margin: 0 25px 0 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .responsive-container-block.bigContainer {
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+
+    .text-blk.heading {
+        font-size: 45px;
+        line-height: 55px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .text-blk.subHeading {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+
+    .social-icons-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-blk.subHeading {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .text-blk.heading {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .social-icon {
+        margin: 0 20px 0 20px;
+    }
 }
 
 /* CONTACT FORM IS TAKEN FROM: https://codepen.io/krisantuswanandi/pen/KxrgeZ  */
@@ -216,10 +476,13 @@ main {
     flex: 1 0 auto;
 }
 
-ul {
+nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
 }
 
 .nav-link {
@@ -246,18 +509,22 @@ li {
 nav {
     text-align: center;
     border-bottom: 2px solid black;
-    margin: 0px 20px 20px 20px;
-    padding-bottom: 20px;
+    /* margin: 0px 20px 20px 20px; */
+    /* padding-bottom: 20px; */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
-img {
-    border: 2px solid black;
-    max-width: 60%;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+/* img {
+  border: 2px solid black;
+  max-width: 60%;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
 
 h1 {
     font-family: Roboto, sans-serif;
