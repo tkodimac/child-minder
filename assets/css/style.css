@@ -86,6 +86,110 @@ h1 span {
     font-weight: 300;
 }
 
+/* TESTIMONIAL SECTION is taken from */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.responsive-container-block-test {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #17a2b8;
+}
+
+::selection {
+    background: rgba(23, 162, 184, 0.3);
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .box {
+    background: #fff;
+    width: calc(33% - 10px);
+    padding: 25px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper .box i.quote {
+    font-size: 20px;
+    color: #17a2b8;
+}
+
+.wrapper .box .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.box .info .name {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.box .info .job {
+    font-size: 16px;
+    font-weight: 500;
+    color: #17a2b8;
+}
+
+.box .info .stars {
+    margin-top: 2px;
+}
+
+.box .info .stars i {
+    color: #17a2b8;
+}
+
+.box .content .image {
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #17a2b8;
+    border-radius: 50%;
+}
+
+.content .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.box:hover .content .image img {
+    border-color: #fff;
+}
+
+@media (max-width: 1045px) {
+    .wrapper .box {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 702px) {
+    .wrapper .box {
+        width: 100%;
+    }
+}
+
 /* ABOUT US SECTION */
 
 .text-blk {
@@ -272,7 +376,145 @@ h1 span {
         margin: 0 20px 0 20px;
     }
 }
+/* RESPONSIVE MINDERS LIST IS TAKEN FROM  https: //www.codingnepalweb.com/responsive-profile-cards-using-html-css/*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background: #8e44ad;
+    color: #fff;
+}
+
+.list-body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #8e44ad;
+}
+
+.container1 {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.container1 .box {
+    width: calc(33% - 10px);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.box .quote i {
+    margin-top: 10px;
+    font-size: 45px;
+    color: #17c0eb
+}
+
+.container1 .box .image {
+    margin: 10px 0;
+    height: 150px;
+    width: 150px;
+    background: #8e44ad;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.box .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.box p {
+    text-align: justify;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box .name_job {
+    margin: 10px 0 3px 0;
+    color: #8e44ad;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rating i {
+    font-size: 18px;
+    color: #8e44ad;
+    margin-bottom: 5px;
+}
+
+.btns {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btns button {
+    background: #8e44ad;
+    width: 100%;
+    padding: 9px 0px;
+    outline: none;
+    border: 2px solid #8e44ad;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8e44ad;
+    transition: all 0.3s linear;
+}
+
+.btns button:first-child {
+    background: none;
+    margin-right: 5px;
+}
+
+.btns button:last-child {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.btns button:first-child:hover {
+    background: #8e44ad;
+    color: #fff;
+}
+
+.btns button:hover {
+    color: #fff;
+}
+
+@media (max-width:1045px) {
+    .container1 .box {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:710px) {
+    .container1 .box {
+        width: 100%;
+    }
+}
+/* RESPOSIVE MINDERS LIST END */
 /* CONTACT FORM IS TAKEN FROM: https://codepen.io/krisantuswanandi/pen/KxrgeZ  */
 form,
 .background,
