@@ -376,6 +376,7 @@ h1 span {
         margin: 0 20px 0 20px;
     }
 }
+
 /* RESPONSIVE MINDERS LIST IS TAKEN FROM  https: //www.codingnepalweb.com/responsive-profile-cards-using-html-css/*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
@@ -432,6 +433,7 @@ h1 span {
     padding: 3px;
     border-radius: 50%;
 }
+
 
 .box .image img {
     height: 100%;
@@ -514,8 +516,15 @@ h1 span {
         width: 100%;
     }
 }
+
 /* RESPOSIVE MINDERS LIST END */
 /* CONTACT FORM IS TAKEN FROM: https://codepen.io/krisantuswanandi/pen/KxrgeZ  */
+
+.contact-entry {
+    margin: 50px 0;
+    
+}
+
 form,
 .background,
 button,
@@ -538,7 +547,7 @@ input {
 
 .screen {
     position: relative;
-    background: #3e3e3e;
+    background: #F5B700;
     border-radius: 15px;
 }
 
@@ -578,7 +587,7 @@ input {
 }
 
 .screen-header-button.close {
-    background: #ed1c6f;
+    background: #00A1E4;
 }
 
 .screen-header-button.maximize {
@@ -598,7 +607,7 @@ input {
     height: 3px;
     margin-left: 2px;
     border-radius: 8px;
-    background: #999;
+    background: #00A1E4;
 }
 
 .screen-body {
@@ -619,7 +628,7 @@ input {
     display: flex;
     flex-direction: column;
     position: relative;
-    color: #ea1d6f;
+    color: #00A1E4;
     font-size: 26px;
 }
 
@@ -631,7 +640,7 @@ input {
     bottom: -10px;
     width: 25px;
     height: 4px;
-    background: #ea1d6f;
+    background: #00A1E4;
 }
 
 .app-contact {
@@ -658,7 +667,7 @@ input {
     padding: 10px 0;
     background: none;
     border: none;
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #00A1E4;
     color: #ddd;
     font-size: 14px;
     text-transform: uppercase;
@@ -667,7 +676,7 @@ input {
 }
 
 .app-form-control::placeholder {
-    color: #666;
+    color: #00A1E4;
 }
 
 .app-form-control:focus {
@@ -677,14 +686,14 @@ input {
 .app-form-button {
     background: none;
     border: none;
-    color: #ea1d6f;
+    color: #00A1E4;
     font-size: 14px;
     cursor: pointer;
     outline: none;
 }
 
 .app-form-button:hover {
-    color: #b9134f;
+    color: #04E762;
 }
 
 .credits {
@@ -692,7 +701,7 @@ input {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    color: #ffa4bd;
+    color: #04E762;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 16px;
     font-weight: normal;
@@ -776,6 +785,8 @@ h1 {
 figure {
     margin-top: 40px;
 }
+
+#center-fline {text-align: center;}
 
 @media screen and (max-width: 520px) {
     .screen-body {
