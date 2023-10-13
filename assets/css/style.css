@@ -127,7 +127,7 @@ h1 span {
 
 .wrapper .box i.quote {
     font-size: 20px;
-    color: #17a2b8;
+    color: #00A1E4;
 }
 
 .wrapper .box .content {
@@ -146,7 +146,7 @@ h1 span {
 .box .info .job {
     font-size: 16px;
     font-weight: 500;
-    color: #17a2b8;
+    color: #00A1E4;
 }
 
 .box .info .stars {
@@ -154,14 +154,14 @@ h1 span {
 }
 
 .box .info .stars i {
-    color: #17a2b8;
+    color: #00A1E4;
 }
 
 .box .content .image {
     height: 75px;
     width: 75px;
     padding: 3px;
-    background: #17a2b8;
+    background: #00A1E4;
     border-radius: 50%;
 }
 
@@ -388,7 +388,7 @@ h1 span {
 }
 
 ::selection {
-    background: #8e44ad;
+    background: #00A1E4;
     color: #fff;
 }
 
@@ -396,7 +396,7 @@ h1 span {
     display: grid;
     height: 100%;
     place-items: center;
-    background: #8e44ad;
+    background: #00A1E4;
 }
 
 .container1 {
@@ -422,14 +422,14 @@ h1 span {
 .box .quote i {
     margin-top: 10px;
     font-size: 45px;
-    color: #17c0eb
+    color: #04E762
 }
 
 .container1 .box .image {
     margin: 10px 0;
     height: 150px;
     width: 150px;
-    background: #8e44ad;
+    background: #00A1E4;
     padding: 3px;
     border-radius: 50%;
 }
@@ -452,14 +452,14 @@ h1 span {
 
 .box .name_job {
     margin: 10px 0 3px 0;
-    color: #8e44ad;
+    color: #00A1E4;
     font-size: 18px;
     font-weight: 600;
 }
 
 .rating i {
     font-size: 18px;
-    color: #8e44ad;
+    color: #00A1E4;
     margin-bottom: 5px;
 }
 
@@ -472,16 +472,16 @@ h1 span {
 }
 
 .btns button {
-    background: #8e44ad;
+    background: #00A1E4;
     width: 100%;
     padding: 9px 0px;
     outline: none;
-    border: 2px solid #8e44ad;
+    border: 2px solid #00A1E4;
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
     font-weight: 400;
-    color: #8e44ad;
+    color: #00A1E4;
     transition: all 0.3s linear;
 }
 
@@ -496,7 +496,7 @@ h1 span {
 }
 
 .btns button:first-child:hover {
-    background: #8e44ad;
+    background: #00A1E4;
     color: #fff;
 }
 
@@ -521,7 +521,9 @@ h1 span {
 /* CONTACT FORM IS TAKEN FROM: https://codepen.io/krisantuswanandi/pen/KxrgeZ  */
 
 .contact-entry {
-    margin: 50px 0;
+    flex: 0 1 700px;
+        margin: 100px 0;
+        padding: 10px;
     
 }
 
