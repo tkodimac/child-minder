@@ -1,5 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+/* TODO:
+1. Move media queries at the bottom
+2. Merge media queries of the same size into one
+3. Move all imports to the top
+4. Add favicon to all html pages
+5. Add meta tags: description, keywords, author to all html pages 
+6. Add media queries to minders page
+7. https://ui.dev/amiresponsive
+8. Complete README
+9. Rename images (descriptive-names)
+10. Add aria-labels to all links and buttons
+11. Add alt attributes to all images
+12. Remove commented-out code
+13. Add comments to all html files and to css
+*/
 * {
     margin: 0;
     padding: 0;
@@ -15,17 +32,26 @@ body {
     min-height: 100vh;
 }
 
-
 header {
-    margin-bottom: -70px;
+    /* margin-bottom: -70px; */
+    z-index: 999;
+    background-color: #00A1E4;
+}
+
+footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00A1E4;
 }
 
 /* HERO SECTION */
-
-.hero {
+.hero,
+.hero-minders {
     height: 80vh;
-    position: relative;
-    top: -70px;
+    /* position: relative; */
+    /* top: -70px; */
     z-index: -999;
     background: linear-gradient(45deg,
             rgba(255, 175, 189, 0.7),
@@ -37,6 +63,16 @@ header {
     -webkit-animation: gradientAnimation 40s ease infinite;
     animation: gradientAnimation 40s ease infinite;
     background-position: 150%;
+}
+
+.hero-minders {
+    background: linear-gradient(45deg,
+            rgba(255, 175, 189, 0.7),
+            rgba(100, 216, 243, 0.7),
+            rgba(234, 236, 198, 0.7),
+            rgba(245, 146, 176, 0.7),
+            rgba(52, 219, 216, 0.7)) 0 0 / 1000% no-repeat,
+        url(../image/2.jpg) 0 0 / cover no-repeat;
 }
 
 @-webkit-keyframes gradientAnimation {
@@ -67,7 +103,7 @@ header {
     }
 }
 
-h1 {
+.heading-main {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -79,7 +115,7 @@ h1 {
     white-space: nowrap;
 }
 
-h1 span {
+.heading-main span {
     display: block;
     margin-top: 1em;
     font-size: 40px;
@@ -87,7 +123,6 @@ h1 span {
 }
 
 /* TESTIMONIAL SECTION is taken from */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -96,11 +131,12 @@ h1 span {
     font-family: 'Poppins', sans-serif;
 }
 
-.responsive-container-block-test {
+.testimonials-section {
     display: grid;
     height: 100%;
     place-items: center;
     background: #17a2b8;
+    padding: 3em 0 5em 0;
 }
 
 ::selection {
@@ -175,19 +211,6 @@ h1 span {
 
 .box:hover .content .image img {
     border-color: #fff;
-}
-
-@media (max-width: 1045px) {
-    .wrapper .box {
-        width: calc(50% - 10px);
-        margin: 10px 0;
-    }
-}
-
-@media (max-width: 702px) {
-    .wrapper .box {
-        width: 100%;
-    }
 }
 
 /* ABOUT US SECTION */
@@ -296,89 +319,7 @@ h1 span {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    .text-blk.heading {
-        font-size: 55px;
-        line-height: 65px;
-    }
-
-    .text-blk.subHeading {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    .socialIcon {
-        width: 20px;
-        height: 20px;
-    }
-
-    .text-blk.subHeading {
-        line-height: 27px;
-    }
-
-    .text-blk.heading {
-        font-size: 32px;
-        line-height: 40px;
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 20px;
-        margin-left: 0px;
-    }
-
-    .social-icon {
-        margin: 0 25px 0 25px;
-    }
-}
-
-@media (max-width: 500px) {
-    .responsive-container-block.bigContainer {
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-    }
-
-    .text-blk.heading {
-        font-size: 45px;
-        line-height: 55px;
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 20px;
-        margin-left: 0px;
-    }
-
-    .text-blk.subHeading {
-        font-size: 14px;
-        line-height: 22px;
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 30px;
-        margin-left: 0px;
-    }
-
-    .social-icons-container {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .text-blk.subHeading {
-        font-size: 16px;
-        line-height: 23px;
-    }
-
-    .text-blk.heading {
-        font-size: 26px;
-        line-height: 30px;
-    }
-
-    .social-icon {
-        margin: 0 20px 0 20px;
-    }
-}
-
 /* RESPONSIVE MINDERS LIST IS TAKEN FROM  https: //www.codingnepalweb.com/responsive-profile-cards-using-html-css/*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
     margin: 0px;
@@ -406,6 +347,7 @@ h1 span {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .container1 .box {
@@ -433,7 +375,6 @@ h1 span {
     padding: 3px;
     border-radius: 50%;
 }
-
 
 .box .image img {
     height: 100%;
@@ -471,7 +412,7 @@ h1 span {
     width: 100%;
 }
 
-.btns button {
+.btns a {
     background: #00A1E4;
     width: 100%;
     padding: 9px 0px;
@@ -481,7 +422,9 @@ h1 span {
     cursor: pointer;
     font-size: 18px;
     font-weight: 400;
-    color: #00A1E4;
+    color: white;
+    text-align: center;
+    text-decoration: none;
     transition: all 0.3s linear;
 }
 
@@ -504,27 +447,26 @@ h1 span {
     color: #fff;
 }
 
-@media (max-width:1045px) {
-    .container1 .box {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width:710px) {
-    .container1 .box {
-        width: 100%;
-    }
-}
-
 /* RESPOSIVE MINDERS LIST END */
-/* CONTACT FORM IS TAKEN FROM: https://codepen.io/krisantuswanandi/pen/KxrgeZ  */
 
-.contact-entry {
-    flex: 0 1 700px;
-        margin: 100px 0;
-        padding: 10px;
-    
+/* CONTACT FORM IS TAKEN FROM: https://codepen.io/krisantuswanandi/pen/KxrgeZ  */
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(../image/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),; */
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(../image/1.jpg) 0 0 / cover no-repeat;
+    /* filter: blur(5px); */
+    /* z-index: -999; */
 }
 
 form,
@@ -549,7 +491,7 @@ input {
 
 .screen {
     position: relative;
-    background: #F5B700;
+    background: #00A1E4;
     border-radius: 15px;
 }
 
@@ -562,7 +504,7 @@ input {
     right: 20px;
     bottom: 0;
     border-radius: 15px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 30px black;
     z-index: -1;
 }
 
@@ -570,7 +512,7 @@ input {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background: #4d4d4f;
+    background: #e8e925;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -593,11 +535,11 @@ input {
 }
 
 .screen-header-button.maximize {
-    background: #e8e925;
+    background: #17a2b8;
 }
 
 .screen-header-button.minimize {
-    background: #74c54f;
+    background: #888;
 }
 
 .screen-header-right {
@@ -609,11 +551,19 @@ input {
     height: 3px;
     margin-left: 2px;
     border-radius: 8px;
-    background: #00A1E4;
+    background: gray;
 }
 
 .screen-body {
     display: flex;
+}
+
+.response-form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 50px;
+    text-align: center;
 }
 
 .screen-body-item {
@@ -630,7 +580,7 @@ input {
     display: flex;
     flex-direction: column;
     position: relative;
-    color: #00A1E4;
+    color: white;
     font-size: 26px;
 }
 
@@ -642,13 +592,13 @@ input {
     bottom: -10px;
     width: 25px;
     height: 4px;
-    background: #00A1E4;
+    background: white;
 }
 
 .app-contact {
     margin-top: auto;
     font-size: 8px;
-    color: #888;
+    color: whitesmoke;
 }
 
 .app-form-group {
@@ -669,8 +619,8 @@ input {
     padding: 10px 0;
     background: none;
     border: none;
-    border-bottom: 1px solid #00A1E4;
-    color: #ddd;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
     font-size: 14px;
     text-transform: uppercase;
     outline: none;
@@ -678,24 +628,28 @@ input {
 }
 
 .app-form-control::placeholder {
-    color: #00A1E4;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .app-form-control:focus {
-    border-bottom-color: #ddd;
+    border-bottom-color: white;
 }
 
 .app-form-button {
     background: none;
     border: none;
-    color: #00A1E4;
+    color: white;
     font-size: 14px;
     cursor: pointer;
     outline: none;
+    border: 2px solid white;
+    padding: 3px 5px;
+    border-radius: 5px;
 }
 
 .app-form-button:hover {
     color: #04E762;
+    border-color: #04E762;
 }
 
 .credits {
@@ -721,6 +675,11 @@ input {
     width: 20px;
     height: 20px;
     margin: 0 5px;
+}
+
+.contact-entry {
+    height: 100%;
+    z-index: 2;
 }
 
 /* END CONTACT FORM */
@@ -778,17 +737,87 @@ nav {
   margin-left: auto;
   margin-right: auto;
 } */
-
 h1 {
     font-family: Roboto, sans-serif;
     text-align: center;
 }
 
 figure {
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
-#center-fline {text-align: center;}
+#center-fline {
+    text-align: center;
+}
+
+
+@media (max-width: 1045px) {
+    .wrapper .box {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+
+    .container1 .box {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-blk.heading {
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    .text-blk.subHeading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .socialIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .text-blk.subHeading {
+        line-height: 27px;
+    }
+
+    .text-blk.heading {
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .social-icon {
+        margin: 0 25px 0 25px;
+    }
+}
+
+@media (max-width:710px) {
+    .container1 .box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 702px) {
+    .wrapper .box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .screen-body {
+        padding: 40px;
+    }
+
+    .screen-body-item {
+        padding: 0;
+    }
+}
 
 @media screen and (max-width: 520px) {
     .screen-body {
@@ -812,12 +841,49 @@ figure {
     }
 }
 
-@media screen and (max-width: 600px) {
-    .screen-body {
-        padding: 40px;
+@media (max-width: 500px) {
+    .responsive-container-block.bigContainer {
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
     }
 
-    .screen-body-item {
-        padding: 0;
+    .text-blk.heading {
+        font-size: 45px;
+        line-height: 55px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .text-blk.subHeading {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+
+    .social-icons-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-blk.subHeading {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .text-blk.heading {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .social-icon {
+        margin: 0 20px 0 20px;
     }
 }
