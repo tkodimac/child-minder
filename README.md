@@ -1,4 +1,4 @@
-![Child Minders logo](/favicon.png)
+![Child Minders logo](favicon.png)
 
 ---
 
