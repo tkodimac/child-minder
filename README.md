@@ -1,4 +1,4 @@
-![Child Minders logo](documentation/animal_shelter_logo.png)
+![Child Minders logo](/favicon.png)
 
 ---
 
