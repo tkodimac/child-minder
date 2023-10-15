@@ -58,10 +58,6 @@ The site can be accessed by this [link](https://tkodimac.github.io/child-minder/
         * Shows feedback from satisfied clients.
         * the mission goal of the company
 
-
-
-    ![Home Page](documentation/home_page.png)
-
 ---
 
 + #### Hero Section
@@ -74,11 +70,8 @@ The site can be accessed by this [link](https://tkodimac.github.io/child-minder/
 
         * The web page description
         * Short description of the company's philosophy.
-          
-
-    
-    ![Hero Section](documentation/hero_section.png)
-
+         
+  
 --- 
 
 + #### Testimonials Section
@@ -87,7 +80,7 @@ The site can be accessed by this [link](https://tkodimac.github.io/child-minder/
 
     - Each card has a picture of the client.
 
-    - Each card has a story from the people who had an experience of using the Child Minders.
+    - Each card has a story from the people who had an experience using the Child Minders.
 
     - Each card has a name of the client.
 
@@ -129,7 +122,7 @@ The site can be accessed by this [link](https://tkodimac.github.io/child-minder/
      - It has a footer identical to the home page's footer.
     
 ​
-    ![Tour page](documentation/gallery_page.png)
+    ![Tour page](documentation/minders_page.png)
 
 
 ---
@@ -166,7 +159,7 @@ The site can be accessed by this [link](https://tkodimac.github.io/child-minder/
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
 - [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was used to declaring global CSS variables and apply them throughout the project. 
 - [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
-- [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+- [Codeanywhere](https://app.codeanywhere.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
@@ -179,24 +172,14 @@ The site can be accessed by this [link](https://tkodimac.github.io/child-minder/
 
 ![Color pallet](documentation/color_pallet.png)
 
-- Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Child Minders".
+- Celestial Blue color was used as the main color of the website due to its phycological effect on people's minds.
+  
+- Celestial Blue Color was used as a background color since this color creates a child friendly feel.
 
-- Light Blue Color was used as a background color since this color creates a sense of tranquility and makes a connection between animal's ownership and peacefulness.
+- Malachite color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
 
-- Purple color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
+- Selective Yellow Color was used as a background color since this color creates a child friendly feel.
 
-### Typography
-
-![Main Font](documentation/primary_font.png)
-
-- Lato Google Font was used as the main font of the website in order to increase readability of the content on the pages.
-
-![Accent Font](documentation/accent_font.png)
-
-- Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Child Minders".
-
-
-### Wireframes
 
 #### Mobile devices
 
@@ -235,20 +218,20 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 ### Deployment to GitHub Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/IuliiaKonovalova/animal_shelter), navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/tkodimac/child-minder), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://iuliiakonovalova.github.io/animal_shelter)
+The live link can be found [here](https://github.com/tkodimac/child-minder)
 
 ### Local Deployment
 
 In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/IuliiaKonovalova/animal_shelter.git`
+- `git clone https://github.com/tkodimac/child-minder.git)`
 
-- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/IuliiaKonovalova/animal_shelter), which will start the Gitpod workspace for you.
+- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/tkodimac/child-minder), which will start the Gitpod workspace for you.
 
 ---
 
@@ -269,49 +252,23 @@ In your IDE Terminal, type the following command to clone my repository:
 
 + #### Media
 
-    - All the images for the website were taken from [Unsplash](https://unsplash.com/).
-    + [Hero image](https://unsplash.com/photos/9gz3wfHr65U);
+    - All the images for the website were taken from [Google](https://www.google.com/).
+    + [Hero image](https://google.com/photos/);
     + Main cons images:
-        - [1st image](https://unsplash.com/photos/_STvosrG-pw)
-        - [2nd image](https://unsplash.com/photos/v3-zcCWMjgM);
-        - [3rd image](https://unsplash.com/photos/W4EUiwceZjs);
-        - [4th image](https://unsplash.com/photos/sXU6BeWoZqI).
+        - [1st image](https://google.com/photos/)
+        - [2nd image]
+        - [3rd image]
+        - [4th image]
     + Testimonial Section: 
-        - [1st image](https://unsplash.com/photos/UCFgM_AojFg);
-        - [2nd image](https://unsplash.com/photos/ISg37AI2A-s);
-        - [3rd image](https://unsplash.com/photos/2WeHZHIW6v0).
-    + Gallery:
-         - [1st image](https://unsplash.com/photos/gKXKBY-C-Dk);
-         - [2nd image](https://unsplash.com/photos/FdR_CoENqp8);
-         - [3rd image](https://unsplash.com/photos/C0zDWAPFT9A);
-         - [4th image](https://unsplash.com/photos/WrG-lFojjW4);
-         - [5th image](https://unsplash.com/photos/IbPxGLgJiMI);
-         - [6th image](https://unsplash.com/photos/tf2BKM9iy9o);
-         - [7th image](https://unsplash.com/photos/iYQC9xWMvw4);
-         - [8th image](https://unsplash.com/photos/o_QTeyGVWjQ);
-         - [9th image](https://unsplash.com/photos/AH7JYgyAlqA);
-         - [10th image](https://unsplash.com/photos/sssxyuZape8);
-         - [11th image](https://unsplash.com/photos/4tc7_jEgGzg);
-         - [12th image](https://unsplash.com/photos/GewH2PtoR1s);
-         - [13th image](https://unsplash.com/photos/7GX5aICb5i4);
-         - [14th image](https://unsplash.com/photos/VvO8e8n0Ffg);
-         - [15th image](https://unsplash.com/photos/1Y4LupdrDZk);
-         - [16th image](https://unsplash.com/photos/uumnRC_kVks);
-         - [17th image](https://unsplash.com/photos/h7VBJRBcieM);
-         - [18th image](https://unsplash.com/photos/Ud4k7O6CJPM);
-         - [19th image](https://unsplash.com/photos/ngqyo2AYYnE);
-         - [20th image](https://unsplash.com/photos/g3B53PbBfwU);
-         - [21st image](https://unsplash.com/photos/JSfsK9VH4q8);
-         - [22nd image](https://unsplash.com/photos/FilM6ng7VGQ);
-         - [23rd image](https://unsplash.com/photos/UtrE5DcgEyg);
-         - [24th image](https://unsplash.com/photos/IuJc2qh2TcA);
-         - [25th image](https://unsplash.com/photos/1-sM8xqPFTM);
-         - [26th image](https://unsplash.com/photos/zBvVuRJ71vU);
-         - [27th image](https://unsplash.com/photos/dEtvMzcbYiA);
-         - [28th image](https://unsplash.com/photos/J7rRzjba-kY);
-         - [29th image](https://unsplash.com/photos/mx0DEnfYxic);
-         - [30th image](https://unsplash.com/photos/VwqecUsYKvs);
-
+        - [1st image];
+        - [2nd image];
+        - [3rd image].
+    + Minders:
+         - [1st image]);
+         - [2nd image];
+         - [3rd image];
+         - [4th image];
+         
 + #### Tools
 
     - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
