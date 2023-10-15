@@ -1,12 +1,12 @@
-![Animal Shelter logo](documentation/animal_shelter_logo.png)
+![Child Minders logo](documentation/animal_shelter_logo.png)
 
 ---
 
-# *Animal Shelter*
+# *Child Minders*
 
-The Animal Shelter website allows people to learn about the company "Animal Shelter" and find information about animals living in this shelter. The visitors of the website could quickly contact the company about adopting animals as well as making a donation.
+The Child Minders website allows people to learn about the company "Child Minders" and find information to link children and their potential minders in their area . The visitors of the website could quickly contact the company about child care services.
 
-The site can be accessed by this [link](https://iuliiakonovalova.github.io/animal_shelter/)
+The site can be accessed by this [link](https://tkodimac.github.io/child-minder/)
 
 ![Responsive Mockup](documentation/responsive_mockup.png)
 
@@ -20,16 +20,15 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 * As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
 * As a First Time Visitor, I want to see the testimonials, so I can see whether the organization is trustworthy.
 
-### Returning VisitorGoals:
+### Returning Visitor Goals:
 
-* As a Returning Visitor, I want to see various pets, so that I can pick from.
-* As a Returning Visitor, I want to see information about animals, so that I can learn about each animal and make a prudent decision.
-* As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask additional questions or send a request about a particular animal.
+* As a Returning Visitor, I want to see various child minders, so that I can pick from.
+* As a Returning Visitor, I want to see information about satisfied parents, so that I can choose a preffered minder according to the rating.
+* As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask additional questions or send a request about a particular child minder.
 * As a Returning Visitor, I want to find community links, so that I can learn more about the organization.
 
 ### Frequent Visitor Goals:
-* As a Frequent User, I want to check whether there are any changes with available animals, so I can make a choice which animal to adopt.
-* As a Frequent User, I want to have options for the reason to contact the company, so I can get an explicit answer to my email. 
+* As a Frequent User, I want to check whether there are any changes with available child minder, so I can make a choice which child minder to select. 
 
 ## Features
 
@@ -37,28 +36,17 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 + ##### Navigation
     - Positioned at the top of the page.
-    - Contains logo of the company on the left side.
     - Contains navigation links on the right side:
-        * HOME - leads to the home page where users can learn about the company Animal Shelter.
-        * GALLERY - leads to the gallery page where users can see available animals in the Animal Shelter.
+        * HOME - leads to the home page where users can learn about the company Child Minders.
+        * CHILD MINDERS - leads to the minders page where users can see available childcare  in the Child Minders.
         * CONTACT - leads to the contact form page where users can fill out the form in order to get in touch with the company.
-    - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
     ![NavBar desktop](documentation/navbar_desktop.png)
 
     - The navigation bar is responsive:
-        * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
+        * On tablets , mobile and computers: navigation bar is clear and visible and elements are centered.
         ![NavBar Tablets](documentation/navbar_tablets.png)
-
-        * On mobile devices: 
-            - navigation bar filled with the logo in the center and a hamburger menu implemented on the left side of the navigation bar.      
-            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
         
-            - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-            ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
-
-
-
 ---
 
 + ### Home Page
@@ -68,7 +56,8 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
         * the main idea of the company.
         * Emphasize the strong points of the company.
         * Shows feedback from satisfied clients.
-        * Invites to fill out the contact form.
+        * the mission goal of the company
+
 
 
     ![Home Page](documentation/home_page.png)
@@ -77,79 +66,67 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 + #### Hero Section
 
-    - Hero section have a fixed background image.
+    - Hero section is on two separate web pages(home page and minders page)
+      
+    - Hero section have a fixed background image on both the home page and minders page.
 
-    - Hero section have the block section below the image that consist:
+    - Hero section have the block section below on image that consist:
 
-        * The name of the company.
+        * The web page description
         * Short description of the company's philosophy.
-        * Contact button that leads directly to the contact page.
+          
 
     
     ![Hero Section](documentation/hero_section.png)
 
 --- 
 
-+ #### Highlights Section
-
-    - Highlight Section has 4 cards with strong descriptive characteristics of the company.
-
-    - Tells website visitors how well animals are in the Animal Shelter.
-
-    - Attracts viewers to use this company for animal adoption.
-
-    
-    ![Highlights Section](documentation/main_cons.png)
-
-
-    ---
 + #### Testimonials Section
 
     - Testimonials Section has three feedbacks from people who were satisfied with the company's service.
 
-    - Each card has a picture of an animal with its owner.
+    - Each card has a picture of the client.
 
-    - Each card has a story from the people who had an experience of using the Animal Shelter.
+    - Each card has a story from the people who had an experience of using the Child Minders.
 
-    - Each card has a name of the pet's owner.
+    - Each card has a name of the client.
 
 ​
     ![Testimonials Section](documentation/testimonials.png)
 
 
 ---
-+ #### Call to Action Section
++ #### About Us Section
 
-    - Call to Action Section has an explicit message for the visitors of the website to contact the company.
+    - Tells website visitors about the company and its objectives.
 
-    - Is also has a button that directs to the contact page.
-​
-    ![Call to Action Section](documentation/call_to_action.png)
+    - Attracts viewers to use this company for child minding.
+ 
+    - Contains social media links that open in a new tab.
+
+    
+    ![Highlights Section](documentation/main_cons.png)
 
 
----
+    ---
 + #### Footer
 
-    - Footer contains social media links that open in a new tab.
+    - Footer contains copyright of the website.
 ​
     ![Footer](documentation/footer.png)
 ​
 ---
-+ ### Gallery Page
++ ### Minders Page
 
-    - Gallery page has a hero image and an introduction message for the visitors that contains an incentive to contact the company.
+    - Minders page has a hero image and an introduction message for the visitors of the company.
+ 
+    - Childminder Section has three introduction messages from childminders who are using the company's service.
 
-    - It has a button right after the introduction message that leads to the contact form page.
+    - It has a button right after the introduction message of each child minder that leads to the contact form page.
 
-    - It has photos of the animals that a present in the Animal Shelter in real-time.
-
-        - The gallery is responsive: the size of the photo depends on the user's screen.
-        - Each image has a description of the animal that appears on hover.
-        - description information contains the name of the animal and its characteristics.
-
-    - It has a call to action section below the gallery with the incentivizing message and the button that leads to the contact form.
-
-    - It has a footer identical to the home page's footer.
+    - It has photos of each child minders that a present in the Child Minders in real-time.
+      
+     - It has a footer identical to the home page's footer.
     
 ​
     ![Tour page](documentation/gallery_page.png)
@@ -161,13 +138,8 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
     - Contact page has a contact form:
 
         - All text input fields are customized.
-        - Labels are animated when the input field is in focus and are not empty.
+        - Requests that you fill out the contact form.
         - All inputs are set to be required to fill out.
-        - It has to checkboxes for the visitors to fill voluntary:
-
-            - The 1st is - ADAPT, which helps the company to understand the motive of the visitor.
-            - The 2nd is - DONATE, which motivates users to consider financial support for the company. 
-
         - The submit button is animated on hover.
 
     - The page is responsive on all common screen sizes.
@@ -181,8 +153,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 + ### Response page
 
     - Response page appears after submitting the contact form.
-    - It contains the thank you message and the promise to get in touch with the applicant within 24 hours.
-    - It will automatically direct the user to the main page in 10 seconds.
+    - It contains the thank you message and the promise to get in touch with the applicant.
 
     ![Response page](documentation/response_page.png)
 
@@ -208,7 +179,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 ![Color pallet](documentation/color_pallet.png)
 
-- Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Animal Shelter".
+- Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Child Minders".
 
 - Light Blue Color was used as a background color since this color creates a sense of tranquility and makes a connection between animal's ownership and peacefulness.
 
@@ -222,7 +193,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 ![Accent Font](documentation/accent_font.png)
 
-- Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Animal Shelter".
+- Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Child Minders".
 
 
 ### Wireframes
@@ -354,9 +325,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Acknowledgments
 
-- [Tim Nelson](https://github.com/TravelTimN) was a great supporter of another bold idea of mine for this project. Tim guided me through the development of the project and helped me to learn a lot of new things by challenging me to do something new.
-- [Aleksei Konovalov](https://github.com/lexach91), my husband and coding partner, assisted me greatly in product values js selection control implementation and helped me to stay sane.
-- [Zulnara Buravtseva](https://www.linkedin.com/in/zulnaraburavtseva/), my dear friend, helped me to test the website and provided me with valuable feedback.
+- [Aleksei Konovalov](https://github.com/lexach91), my mentor and coding partner, assisted me greatly in project development ,selection control implementation and helped me withstand pressure.
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
 
