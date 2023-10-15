@@ -181,34 +181,11 @@ The site can be accessed by this [link](https://tkodimac.github.io/child-minder/
 - Selective Yellow Color was used as a background color since this color creates a child friendly feel.
 
 
-#### Mobile devices
-
-- [Home Page. Mobile Screen](documentation/mobile_home_page.png)
-- [Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
-- [Contact Page. Mobile Screen](documentation/mobile_contact_form_page.png)
-- [Response Page. Mobile Screen](documentation/mobile_response_page.png)
-
-
-#### Tablets
-
-- [Home Page. Tablet Screen](documentation/tablet_home_page.png)
-- [Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
-- [Contact Page. Tablet Screen](documentation/tablet_contact_form_page.png)
-- [Response Page. Tablet Screen](documentation/tablet_response_page.png)
-
-#### Desktop
-
-- [Home Page. Desktop Screen](documentation/desktop_home_page.png)
-- [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
-- [Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
-- [Response Page. Desktop Screen](documentation/desktop_response_page.png)
-
-
 ---
 
 ## Testing
 
-Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+Limitation on time ,testing was done on chrome and mozilla and compliance was limited.
 
 ---
 
